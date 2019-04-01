@@ -7,10 +7,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Gretong a Ecommerce Category Flat Bootstarp Responsive Website Template | Home :: w3layouts</title>
+<title>Gretong a Ecommerce Category Flat Bootstarp Responsive Website Template | Register :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary JavaScript plugins) -->
-<script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
+<script type='text/javascript' src="js/jquery-1.11.1.min.js">  </script>  
+    
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
@@ -20,6 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="keywords" content="Gretong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900' rel='stylesheet' type='text/css'>
 <!-- start menu -->
@@ -27,10 +29,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 <script src="js/menu_jquery.js"></script>
-<script src="js/simpleCart.min.js"> </script>
 </head>
 <body>
-<!-- header_top -->
+  
+    <!-- header_top -->
 <div class="top_bg">
 	<div class="container">
 		<div class="header_top">
@@ -53,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 	<div class="head-t">
 		<div  style="float: left; margin-right: 100px;  width: 15px;">
-			<a href="index.html"><img src="wapi.png"alt=""/> </a>
+			<a href="index.html"><img src="images/wapi_final.png"alt=""/> </a>
 		</div>
         
         
@@ -86,7 +88,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 			<div class="cart box_1">
 				<a href="checkout.html">
-					<h3> <span class="simpleCart_total">0.00 DT</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> article(s))<a href="file:///C:/Users/Asus/Desktop/web_version1.0/panier.html"><img src="images/bag.png"></h3>
+					<h3> <span class="simpleCart_total">0.00 DT</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> article(s))<img src="images/bag.png" alt=""></h3>
 				</a>	
 				<p><a href="javascript:;" class="simpleCart_empty">(carte vide)</a></p>
 				<div class="clearfix"> </div>
@@ -133,68 +135,78 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li class="active grid"><a class="color1" href="index.html"> Meuble de jardin </a> </li>
         <li class="grid"><a class="color2" href="#"> 	   Accessoires et décoration </a> </li>
    
-	<li class="active grid"><a class="color8" href="index.html"> Contact </a> </li>
+	<li class="active grid"><a class="color8" href="index.html"> Contact </a> </li>          
+    
+		
+	<br> <br> <br> 
 
-            
-        </ul>
-    </div>
-    </div>
-    </div>
-    <br>
-    <br>
-    <br><br>
-           <form style="text-align:center;" method="POST" action="supprimerpanier.php" enctype="multipart/form-data">									<h2 style="color:rgb(0, 49, 82)"><b>Supprimer un produit du panier</b></h2>
-            <br><br><br>		
+    
+    
+    
+    
+<!-- content -->
+<div class="container">
+<div class="main">
+	<!-- start registration -->
+	<div class="registration">
+		<div class="registration_left"><br>
+		
+		 <div class="registration_form">
+		 <h1 style="color:rgb(255, 107, 115)";><b><i>Passer une commande</i></b></h1>
+<form action="1">
+ <table border="1">
+  <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em><b>obligatoires</b></em></p>
+  <fieldset>
+    <legend style="color:rgb(50, 66, 115)";><b>information personelle</b></legend>
+      <label for="nom">Nom <em>*</em></label>
+      <input id="nom" placeholder="" autofocus="" required=""><br>
+      <label for="nom">Prénom <em>*</em></label>
+      <input id="prénom" placeholder="" autofocus="" required=""><br>
+      <label for="telephone">Portable</label>
+      <input id="telephone" type="tel" placeholder="00 000000" pattern="[0-9]{8}"><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email" type="email" placeholder="prenom.nom@gmail.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com"><br>
+      
 
-    <div >
-                       <div  class="form-group">
-                <label style="color:tomato"><b>Id produit</b></label>
-                <div >
-                        <input type="number" name="idproduit" placeholder="" autofocus="" required="" attern="[0-9]{4}">
-                </div>
-            </div>
-
-            <div>
-                <label style="color:tomato"><b>Nom Produit</b></label>
-                <div >
-                        <input type="text" name="nomproduit" placeholder="xxxxxxx" autofocus="" required="" pattern="[a-zA-Z]{3,12}">
-                </div>
-            </div>
-
-            <div >
-                <label style="color:tomato"><b>la quantités</b></label>
-                <div >
-                        <input type="number" name="qt" placeholder="" autofocus="" required="" attern="[0-9]{4}">
-                </div>
-            </div>
-
-            
-           
-                <br>
-                <br>
-                <br>
-                <div class="form-group" style="align=center">
-                        <input class="btn btn-primary" type="submit" name="supprimer" value="supprimer">
-
-                </div>
-                
-                
-
-            </form>
-
-</fieldset>
+  </fieldset>
+  
+  <fieldset>
+    <legend style="color:rgb(50, 66, 115)";><b>Adresse de livraison</b></legend>
+      <label for="ville">Ville<em>*</em></label>
+      <select id="Ville">
+       <option value="">Chosir...</option>
+            <option>Ariana</option>
+            <option>Ben arouss</option>
+            <option>Bizerte</option>
+            <option>Béja</option>
+            <option>Gabes</option>
+            <option>Gafsa</option>
+            <option>Jendouba</option>
+            <option>Djerba</option>
+            </select><br>
+          <label for="code">Adresse<em>*</em></label>
+      <input id="Adresse" placeholder="Rue/Appartement/Suite/Bloc/Bâtiment" autofocus="" required=""  width=36px ><br>
+       <label for="code">Code postal<em>*</em></label>
+      <input id="code postal" placeholder="xxxx" autofocus="" required="" attern="[0-9]{4}"><br>
+  </fieldset>
  
-           <br>
-           <br>
-           <br>
 
-	
+  <fieldset>
+    <legend style="color:rgb(50, 66, 115)";><b>Choisissez le mode de paiement</b></legend>
+    <label for="carte"><input id="chatnoir" type="checkbox" name="binet" value="chat">Carte de crédit</label><br>
+    <label for="espèce"><input id="oenologie" type="checkbox" name="binet" value="vin">Payement à la livraison</label><br>
+   </fieldset>
+  <p><input type="submit" value="Commander"></p>
+</form>
+</table>
+</div>
+
 <div class="foot-top">
 	<div class="container">
 		<div class="col-md-6 s-c">
 			<li>
 				<div class="fooll">
-					<h5>Trouvez-nous sur les réseaux sociaux</h5>
+					<h5>trouvez nous sur les réseaux sociaux </h5>
 				</div>
 			</li>
 			<li>
@@ -215,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="stay">
 						<div class="stay-left">
 							<form>
-								<input type="text" placeholder="Entrez votre adresse pour s'abonner aux newsletters" required="">
+								<input type="text" placeholder="Entrez votre adresse mail pour s'abonner aux newsletters " required="">
 							</form>
 						</div>
 						<div class="btn-1">
@@ -233,22 +245,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="col-md-3 cust">
 			<h4>SERVICE CLIENT</h4>
-				<li><a href="#">Centre d'aide </a></li>
+				<li><a href="#">Centre d'aide</a></li>
 				<li><a href="#">FAQ</a></li>
-			
+				
 				<li><a href="#">Livraison</a></li>
 		</div>
 		<div class="col-md-2 abt">
 			<h4>A PROPOS DE NOUS </h4>
 				<li><a href="#">Nos Stories</a></li>
+				
 				<li><a href="contact.html">Contact</a></li>
 		</div>
 		<div class="col-md-2 myac">
 			<h4>MON COMPTE</h4>
 				<li><a href="register.html">S'inscrire</a></li>
-				<li><a href="#">Mon panier</a></li>
-			
-				<li><a href="buy.html">Paiement</a></li>
+				<li><a href="#">Mon Panier</a></li>
+				
+				<li><a href="buy.html">Paiment</a></li>
 		</div>
 		<div class="col-md-5 our-st">
 			<div class="our-left">
@@ -274,5 +287,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p>Copyrights © 2015 Gretong. All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
 	</div>
 </div>
+           
 </body>
 </html>

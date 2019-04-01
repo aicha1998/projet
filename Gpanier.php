@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 	<div class="head-t">
 		<div  style="float: left; margin-right: 100px;  width: 15px;">
-			<a href="index.html"><img src="images/wapi_final.png"alt=""/> </a>
+			<a href="index.html"><img src="wapi.png"alt=""/> </a>
 		</div>
         
         
@@ -150,11 +150,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 
-<table class="table table-bordered table-striped mb-none"  id="myTable2" data-swf-path="assets/vendor/jquery-datatables/extras/TableTools/swf/copy_csv_xls_pdf.swf">
+<table class="table table-bordered table-striped mb-none"  id="myTable2" data-swf-path="assets/vendor/jquery-datatables/extras/TableTools/swf/copy_csv_xls_pdf.swf" style="color:tomato; text-align-last:center; align-items:center;">
 							<thead>
 								<tr>
 										<th onclick="sortTable(0)">idproduit</th>
 										<th onclick="sortTable(1)">nomproduit</th>
+										
 										<th>qt</th>
 										
 
